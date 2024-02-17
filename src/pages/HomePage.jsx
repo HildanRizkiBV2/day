@@ -11,7 +11,7 @@ const HomePage = () => {
     await loadFireworksPreset(engine)
   }
   const nambahUmur = () => {
-    window.location.href = "/main"
+    window.location.href = "/day/main"
   }
   function timeLeft(){
     const myHbd = new Date("March 16, 2024 00:00:00").getTime()
